@@ -1,0 +1,69 @@
+.car-head {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.car-body {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
+
+.boldd {
+  font-size: 22px !important;
+  font-weight: 600 !important;
+}
+.bg-sol {
+  background-color: #e6e6e6;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.program {
+  margin-top: 20px;
+  background-color: white;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.program:hover {
+  transition: 0.3s;
+  background-color: rgb(104, 25, 25);
+  animation-duration: 2s;
+  h2 {
+    color: white;
+  }
+}
+
+.program > h2 {
+  color: rgb(104, 25, 25);
+  font-weight: 600;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 576px) {
+  .car-head {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+  }
+  .car-body {
+    font-size: 17px !important;
+  }
+  .boldd {
+    font-size: 20px !important;
+  }
+  .our-partner img {
+    width: 300px;
+  }
+}
+@media (max-width: 1399.98px) {
+  .staff > h3 {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,19 @@
+.form-card {
+  border-radius: 10px;
+  background-color: #e4e4e4;
+}
+label {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(62, 62, 62);
+}
+.section-register h1 {
+  font-weight: 800;
+  font-size: 60px;
+}
+
+@media (max-width: 575.98px) {
+  .section-register h1 {
+    font-size: 40px;
+  }
+}
